@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+<head>
+	<title>Practica 2</title>
+	<style>
+		.header{
+			background-color: #CC7900;
+			color: white;
+			text-align: center; 
+		}
+		.menu{
+			background-color: #FF9800;
+			padding: 30px;
+		}
+		.link{
+			padding: 30px;
+			height: 20px;
+		}
+		.link:hover{
+			background-color: red;
+		}
+		.cotenido{
+			border: 1px solid;
+		}
+		.footer{
+			background-color: black;
+			color: white;
+			border: 1px solid #5b5b5b;
+			padding: 30px;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="header">
+		<h1>Práctica 2 - Elementos html e hipervínculos</h1>
+	</div>
+
+	<div class="menu">
+		<a class="link" href="">Inicio</a>
+		<a class="link" href="">Detalle</a>
+	</div>
+
+	<div class="contenido">
+		<img src="panda.jpg" alt="" width="25%">
+		<p>El panda, oso panda o panda gigante es una especie de mamífero del orden de los carnívoros. El estudio de su ADN lo engloba entre los miembros de la familia de los osos, ​ siendo el oso de anteojos su pariente más cercano, que pertenece a la subfamilia de los tremarctinos.</p>
+	</div>
+
+	<div class="footer">
+		Página web &copy; Cetis 107 4AVP
+	</div>
+
+</body>
+</html>
